@@ -36,6 +36,7 @@ import bspLogo from './assets/education_logo/bseb.png';
 // Project Section Logo's
 
 import travelLogo from './assets/work_logo/travel.png';
+import qrLogo from './assets/work_logo/qr.png';
 
 
 export const SkillsInfo = [
@@ -103,7 +104,7 @@ export const experiences = [
     role: "Software Developer Intern (SDE-1)",
     company: "Defence Research & Development Organisation (DRDO)",
     date: "January 2025 - June 2025",
-    desc: "Contributed to a defense project focused on Honeypot Design & Network Security during a 6-month internship at the Scientific Analysis Group, DRDO, Delhi. Worked on building and enhancing internal tools for network monitoring and cybersecurity. Strengthened development practices by writing optimized, secure, and maintainable code. Gained exposure to defense technology and collaborated under the mentorship of Scientist 'E' – Mr. Ashish Sonkar.",
+    desc: "Contributed to a defense project on Honeypot Design and Network Security during a 6-month internship at the Scientific Analysis Group, DRDO, New Delhi. Played a key role in developing and enhancing internal tools for network monitoring and cybersecurity, with a focus on writing optimized, secure, and maintainable code. Strengthened development best practices while gaining valuable exposure to defense-grade technologies. Collaborated closely under the mentorship of Scientist 'E', Mr. Ashish Sonkar, in a high-security, research-driven environment.",
     skills: [
       "JavaScript",
       "Node.js",
@@ -121,7 +122,7 @@ export const experiences = [
     role: "Web Development Intern",
     company: "CodSoft",
     date: "August 2023 - September 2023",
-    desc: "Worked as a Web Development Intern, building responsive and user-friendly websites using HTML, CSS, JavaScript, and Bootstrap. Gained hands-on experience in front-end development, layout structuring, and mobile-first design. Collaborated in a remote team environment to deliver clean and functional web interfaces.",
+    desc: "Worked as a Web Development Intern, creating responsive and user-friendly websites using HTML, CSS, JavaScript, and Bootstrap. Gained practical experience in front-end development, including layout structuring, component design, and mobile-first responsiveness. Collaborated within a remote team environment to deliver clean, maintainable, and functional web interfaces aligned with modern UI/UX standards.",
     skills: [
       "HTML",
       "CSS",
@@ -139,7 +140,7 @@ export const experiences = [
     img: ikLogo, // yahan college ka logo import karke use karo
     school: "Universal Group of Institutions, Punjab",
     date: "Aug 2021 - July 2025",
-    grade: "8.90 SGPA",
+    grade: "84%",
     desc: "I have completed my Bachelor's degree (B.Tech) in Computer Science and Engineering from Universal Group of Institutions, affiliated to PTU. During this time, I built a strong foundation in core computer science subjects like Data Structures, Algorithms, Operating Systems, Database Management Systems, and Web Development. I also took part in technical workshops and coding competitions that helped boost my practical knowledge and confidence. My time here has played a key role in shaping me as a future-ready software engineer.",
     degree: "Bachelor of Technology - B.Tech (CSE)",
     },
@@ -148,50 +149,22 @@ export const experiences = [
     img: bspLogo, 
     school: "MR Inter College, Harsidhi",
     date: "Aug 2020 - July 2021",
-    grade: "87%",
+    grade: "67%",
     desc: "I completed my 12th grade in the Non-Medical stream with subjects including Physics, Chemistry, Mathematics, and Computer Science. During this time, I developed a strong interest in technology and problem-solving, which motivated me to pursue engineering. I also focused on building logical thinking and analytical skills through regular assignments and practicals. My performance and curiosity in computer-related subjects laid the foundation for my future in Computer Science.",
      degree: "Non-Medical(BSEB)",
     },
        {
     id: 2,
     img: bspLogo, 
-    school: "Primary School ,Kanchhedwa",
-    date: "Aug 2019 - July 2020",
-    grade: "80%",
+    school: "Primary School, Kanchhedwa",
+    date: "March 2019 - July 2020",
+    grade: "71%",
    desc: "I completed my 10th standard with a strong academic record. This phase laid the foundation of my academic journey where I studied core subjects like Mathematics, Science, Social Studies, and English. I developed a disciplined learning approach, participated in science exhibitions and quizzes, and also maintained good performance across all subjects. This period helped shape my interest in analytical subjects and set the direction for choosing the Non-Medical stream later.",
   degree: "Secondary School Education - 10th (bihar Board)",
   }
 ];
 
-//     {
-//       id: 1,
-//       img: bsaLogo,
-//       school: "BSA College, Mathura",
-//       date: "Sept 2018 - Aug 2021",
-//       grade: "73.2%",
-//       desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-//       degree: "Bachelor of Science - BSC (Computer Science)",
-//     },
-//     {
-//       id: 2,
-//       img: vpsLogo,
-//       school: "Vatsalya Public School Govardhan, Mathura",
-//       date: "Apr 2017 - March 2018",
-//       grade: "78%",
-//       desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-//       degree: "CBSE(XII) - PCM with Computer Science",
-//     },
-//     {
-//       id: 3,
-//       img: vpsLogo,
-//       school: "Vatsalya Public School Govardhan, Mathura",
-//       date: "Apr 2015 - March 2016",
-//       grade: "87.5%",
-//       desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-//       degree: "CBSE(X), Science with Computer Application",
-//     },
-//   ];
-  
+
 export const projects = [
     {
         id: 1,
@@ -199,12 +172,22 @@ export const projects = [
         description:
             "A sleek and intuitive travel companion app that helps users discover destinations, plan trips, and manage itineraries with ease. Designed with a user-first approach, it offers location-based suggestions and a visually engaging interface to enhance the travel planning experience.",
         image: travelLogo,
-        tags: ["HTML", "CSS", "JavaScript", "Responsive Design", "UI/UX"],
+        tags: ["HTML", "CSS", "JavaScript", "Node Js", "Express Js", "MongoDB", "Bootstrap"],
         github: "https://github.com/atulranjan69/Travelmate",
         webapp: "https://travelmate-f7rm.onrender.com", // replace with your deployed
 
         // webapp: "https://travelmateproject.netlify.app/", // replace with your deployed URL if available
   },
+  {
+    id: 1,
+    title: "QR Attendance System",
+    description:
+      "A web-based application that streamlines the attendance process using QR codes. It allows teachers to generate QR codes for their classes, which students can scan to mark their attendance. The system provides real-time attendance tracking and reporting features.",
+    image: qrLogo, // replace with your project image
+    tags: ["HTML", "CSS", "JavaScript", "Node Js", "Express Js", "MongoDB", "Bootstrap"],
+    github: "",
+    webapp: "",
+  }
   
   // 2 projects can be added here
 ];

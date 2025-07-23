@@ -99,9 +99,10 @@ const About = () => {
             </span>
           </h3>
           {/* about me */}
-    <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed tracking-wide text-justify max-w-[550px]">
-  I’m a <span className="font-semibold italic text-white">Full Stack Developer</span> with a strong grasp of <span className="italic">Data Structures and Algorithms</span>. I love building sleek web apps and writing clean, efficient code. Always ready to <span className="italic">learn</span> and <span className="italic">solve real-world problems</span> through tech.
+  <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed tracking-wide text-justify max-w-[550px]">
+  I’m a <span className="font-semibold italic text-white">MERN Stack Developer</span> with a strong foundation in building full-stack web applications using <span className="italic">MongoDB, Express.js, React,</span> and <span className="italic">Node.js</span>. I specialize in creating <span className="italic">responsive</span>, <span className="italic">user-friendly interfaces</span> and <span className="italic">robust back-end systems</span> that deliver seamless user experiences. Whether it's developing <span className="italic">scalable APIs</span>, designing <span className="italic">dynamic front-end components</span>, or integrating third-party services, I enjoy solving <span className="italic">real-world problems</span> through clean, maintainable code. I'm always eager to <span className="italic">learn new technologies</span> and contribute to <span className="italic">meaningful projects</span> that make a difference.
 </p>
+
 
   {/* resume download button */}
           <a href="https://drive.google.com/file/d/19PQryxcy9HSTQK2q9qOf4gOEU0JyUPXy/view?usp=drive_link"
