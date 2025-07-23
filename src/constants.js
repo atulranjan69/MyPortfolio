@@ -146,7 +146,7 @@ export const experiences = [
      {
     id: 1,
     img: bspLogo, 
-    school: "Government school,bihar",
+    school: "MR Inter College, Harsidhi",
     date: "Aug 2020 - July 2021",
     grade: "87%",
     desc: "I completed my 12th grade in the Non-Medical stream with subjects including Physics, Chemistry, Mathematics, and Computer Science. During this time, I developed a strong interest in technology and problem-solving, which motivated me to pursue engineering. I also focused on building logical thinking and analytical skills through regular assignments and practicals. My performance and curiosity in computer-related subjects laid the foundation for my future in Computer Science.",
@@ -155,7 +155,7 @@ export const experiences = [
        {
     id: 2,
     img: bspLogo, 
-    school: "Government senior school,bihar",
+    school: "Primary School ,Kanchhedwa",
     date: "Aug 2019 - July 2020",
     grade: "80%",
    desc: "I completed my 10th standard with a strong academic record. This phase laid the foundation of my academic journey where I studied core subjects like Mathematics, Science, Social Studies, and English. I developed a disciplined learning approach, participated in science exhibitions and quizzes, and also maintained good performance across all subjects. This period helped shape my interest in analytical subjects and set the direction for choosing the Non-Medical stream later.",
