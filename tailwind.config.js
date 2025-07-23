@@ -1,4 +1,3 @@
-
 // /** @type {import('tailwindcss').Config} */
 // module.exports = {
 //   content: [
@@ -38,6 +37,11 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  safelist: [
+    "clip-path-custom", // Add any custom classes you use dynamically
+    // "clip-path-custom-2",
+    // "clip-path-custom-3",
+  ],
   theme: {
     extend: {
       keyframes: {
@@ -53,6 +57,8 @@ export default {
       },
       backgroundImage: {
         'skills-gradient': 'linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%)',
+        // Add more gradients if you use them
+        // 'experience-gradient': 'linear-gradient(135deg, #1e1e2f, #25254b)',
       },
     },
   },

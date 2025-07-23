@@ -1,5 +1,3 @@
-
-
 // // export default Education;
 // import React from "react";
 // import { education } from "../../constants"; // Import the education data
