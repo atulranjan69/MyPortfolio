@@ -64,7 +64,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-4 px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg-mt-32"
+      className="py-16 px-[7vw] lg:px-[20vw] font-sans mt-4 md:mt-6 lg:mt-16 scroll-mt-20"
     >
       <div className="flex flex-col-reverse md:flex-row items-center justify-between">
         {/* Left Side */}
@@ -99,9 +99,10 @@ const About = () => {
             </span>
           </h3>
           {/* about me */}
-  <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed tracking-wide text-justify max-w-[550px]">
-  I’m a <span className="font-semibold italic text-white">MERN Stack Developer</span> with a strong foundation in building full-stack web applications using <span className="italic">MongoDB, Express.js, React,</span> and <span className="italic">Node.js</span>. I specialize in creating <span className="italic">responsive</span>, <span className="italic">user-friendly interfaces</span> and <span className="italic">robust back-end systems</span> that deliver seamless user experiences. Whether it's developing <span className="italic">scalable APIs</span>, designing <span className="italic">dynamic front-end components</span>, or integrating third-party services, I enjoy solving <span className="italic">real-world problems</span> through clean, maintainable code. I'm always eager to <span className="italic">learn new technologies</span> and contribute to <span className="italic">meaningful projects</span> that make a difference.
+ <p className="text-white/80 text-[16px] mb-10 mt-8">
+  I’m a <span className="font-semibold italic text-white">MERN Stack Developer</span> with a strong foundation in building full-stack web applications using MongoDB, Express.js, React, and Node.js. I specialize in creating responsive, user-friendly interfaces and robust back-end systems that deliver seamless user experiences. Whether it's developing scalable APIs, designing dynamic front-end components, or integrating third-party services, I enjoy solving real-world problems through clean, maintainable code. I'm always eager to learn new technologies and contribute to meaningful projects that make a difference.
 </p>
+
 
 
   {/* resume download button */}

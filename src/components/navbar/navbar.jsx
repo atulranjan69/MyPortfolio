@@ -77,7 +77,7 @@ const Navbar = () => {
     <div className={`fixed top-0 w-full z-50 transition duration-300 px-[7vw] lg:px-[20vw] ${
       isScrolled ? "bg-opacity-50 backdrop-blur-md shadow-md" : "bg-transparent"
     }`}>
-      <div className='text-white py-5 flex justify-between items-center'>
+      <div className='text-white py-2 flex justify-between items-center'>
         <Logo />
         <DesktopMenu
           menuItems={menuItems}

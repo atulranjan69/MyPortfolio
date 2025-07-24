@@ -127,7 +127,8 @@ export const experiences = [
       "HTML",
       "CSS",
       "JavaScript",
-      "Bootstrap"
+      "Bootstrap",
+    
     ],
   },
 ];
@@ -184,7 +185,7 @@ export const projects = [
     description:
       "A web-based application that streamlines the attendance process using QR codes. It allows teachers to generate QR codes for their classes, which students can scan to mark their attendance. The system provides real-time attendance tracking and reporting features.",
     image: qrLogo, // replace with your project image
-    tags: ["HTML", "CSS", "JavaScript", "Node Js", "Express Js", "MongoDB", "Bootstrap"],
+    tags: ["HTML", "CSS", "JavaScript", "Node Js", "Express Js", "MongoDB", "Bootstrap","Tailwind CSS"],
     github: "",
     webapp: "",
   }
