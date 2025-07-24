@@ -162,7 +162,7 @@ const Work = () => {
       </div>
 
       {/* Project Grid */}
-      <div className='grid gap-12 grid-cols-2 md:grid-cols-2 mx-auto max-w-screen-lg justify-items-center'> 
+      <div className='grid gap-8 grid-cols-1 md:grid-cols-2 mx-auto max-w-screen-lg justify-items-center'> 
         {projects.map((project) => (
           <div
             key={project.id}

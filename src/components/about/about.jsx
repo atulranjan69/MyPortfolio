@@ -64,7 +64,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-16 px-[7vw] lg:px-[20vw] font-sans mt-4 md:mt-6 lg:mt-16 scroll-mt-20"
+      className=" px-[7vw] lg:px-[20vw] font-sans  scroll-mt-20"
     >
       <div className="flex flex-col-reverse md:flex-row items-center justify-between">
         {/* Left Side */}
