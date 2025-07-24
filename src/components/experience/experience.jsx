@@ -305,7 +305,7 @@ const Experience = () => {
       {/* Timeline */}
       <div className="relative">
         {/* Vertical Line */}
-        <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 sm:-translate-x-0 w-1 bg-white h-full"></div>
+        <div className="absolute left-1/2 transform -translate-x-1/2 w-1 bg-white h-full"></div>
 
         {/* Timeline Cards */}
         {experiences.map((experience, index) => (
